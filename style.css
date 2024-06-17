@@ -5,4 +5,23 @@ body {}
 .cabecalho {
     background-color: #4392e2;
 
+    justify-content: space-between;
+
+
 }
+
+.rodape {
+    background-color: #a2a2a2;
+    align-items: center;
+    display: flex;
+}
+
+.redes-sociais {
+    display: flex;
+    margin: 1.5px;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.links {}
