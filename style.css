@@ -28,6 +28,8 @@ body {
     background-color: #d5f7ff;
 }
 
+.redes-sociais-1 {}
+
 .banner-redes-sociais {
 
     background-color: #d5f7ff;
@@ -49,4 +51,21 @@ body {
 .area-de-interacao {
     margin-left: 40px;
 
+}
+
+.meu-botao-personalizado {
+    background-color: #FFA500;
+    /* Cor de fundo laranja */
+    border-color: #FFA500;
+    /* Cor da borda laranja */
+    color: #FFFFFF;
+    /* Cor do texto branco */
+    font-weight: bold;
+    /* Texto em negrito */
+}
+
+.meu-botao-personalizado:hover {
+    background-color: #FF4500;
+    /* Altera a cor de fundo ao passar o mouse */
+    border-color: #FF4500;
 }
