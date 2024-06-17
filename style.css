@@ -1,4 +1,7 @@
-body {}
+body {
+
+    --fonte-secundaria: 'MuseoSansRounded900';
+}
 
 
 
@@ -16,12 +19,34 @@ body {}
     display: flex;
 }
 
+
+
+.links {}
+
+
 .redes-sociais {
-    display: flex;
-    margin: 1.5px;
-    flex-direction: row;
+    background-color: #d5f7ff;
+}
+
+.banner-redes-sociais {
+
+    background-color: #d5f7ff;
+    background-image: url('/assets/textura-fundo-da-sessão.png');
+    background-image: url(/assets/nuvem.png);
+    background-repeat: no-repeat;
+    background-position: 40pc;
+}
+
+
+
+.titulo {
+    padding-top: 40px;
+    color: #00e8ff;
     text-align: center;
 
 }
 
-.links {}
+.area-de-interacao {
+    margin-left: 40px;
+
+}
