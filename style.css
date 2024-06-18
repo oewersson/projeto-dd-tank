@@ -54,18 +54,18 @@ body {
 }
 
 .meu-botao-personalizado {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #FFA500;
-    /* Cor de fundo laranja */
     border-color: #FFA500;
-    /* Cor da borda laranja */
     color: #FFFFFF;
-    /* Cor do texto branco */
     font-weight: bold;
-    /* Texto em negrito */
+
 }
 
 .meu-botao-personalizado:hover {
     background-color: #FF4500;
-    /* Altera a cor de fundo ao passar o mouse */
     border-color: #FF4500;
 }
